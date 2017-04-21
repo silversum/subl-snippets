@@ -1,0 +1,7 @@
+<snippet>
+    <tabTrigger>ipdb</tabTrigger>
+    <scope>source.python</scope>
+    <description>IPython Debigger</description>
+
+    <content><![CDATA[import ipdb; ipdb.${0:set_trace}()]]></content>
+</snippet>

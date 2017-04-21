@@ -1,0 +1,7 @@
+<snippet>
+    <tabTrigger>rdb</tabTrigger>
+    <scope>source.python</scope>
+    <description>Celery Remote Debigger</description>
+
+    <content><![CDATA[from celery.contrib import rdb; rdb.set_trace()]]></content>
+</snippet>
