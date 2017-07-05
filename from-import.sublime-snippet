@@ -1,0 +1,7 @@
+<snippet>
+    <tabTrigger>from</tabTrigger>
+    <scope>source.python</scope>
+    <description>Python import</description>
+
+    <content><![CDATA[from ${1} import ${2}]]></content>
+</snippet>
