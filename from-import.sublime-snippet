@@ -1,7 +1,7 @@
 <snippet>
     <tabTrigger>from</tabTrigger>
     <scope>source.python</scope>
-    <description>Python import</description>
+    <description>Python from ... import</description>
 
-    <content><![CDATA[from ${1} import ${2}]]></content>
+    <content><![CDATA[from ${1:$TM_SELECTED_TEXT} import ${2}]]></content>
 </snippet>
