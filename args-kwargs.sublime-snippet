@@ -1,0 +1,7 @@
+<snippet>
+    <tabTrigger>arg</tabTrigger>
+    <scope>source.python</scope>
+    <description>*args, **kwargs</description>
+
+    <content><![CDATA[${TM_CURRENT_WORD/^(?:.*?)(?:(\*)|)(?:[^\*]*)$/(?1a:*a)rgs, **kwargs/}]]></content>
+</snippet>

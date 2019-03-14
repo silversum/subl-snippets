@@ -1,7 +1,7 @@
 <snippet>
     <tabTrigger>property</tabTrigger>
     <scope>source.python</scope>
-    <description>New property</description>
+    <description>New property (full)</description>
 
     <content><![CDATA[def ${1:foo}():
     doc = "${2:The $1 property.}"
