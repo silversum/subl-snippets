@@ -1,0 +1,7 @@
+<snippet>
+	<tabTrigger>rpdb</tabTrigger>
+	<scope>source.python</scope>
+	<description>remote-pdb</description>
+
+	<content><![CDATA[import remote_pdb; remote_pdb.RemotePdb('${1:127.0.0.1}', ${2:4444}).${3:set_trace}()$0]]></content>
+</snippet>

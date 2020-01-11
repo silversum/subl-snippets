@@ -1,7 +1,7 @@
 <snippet>
-    <tabTrigger>bpdb</tabTrigger>
-    <scope>source.python</scope>
-    <description>bpython debugger</description>
+	<tabTrigger>bpdb</tabTrigger>
+	<scope>source.python</scope>
+	<description>bpython debugger</description>
 
-    <content><![CDATA[import bpdb; bpdb.${0:set_trace}()]]></content>
+	<content><![CDATA[import bpdb; bpdb.${0:set_trace}()]]></content>
 </snippet>

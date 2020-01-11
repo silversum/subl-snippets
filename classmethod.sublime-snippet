@@ -1,0 +1,7 @@
+<snippet>
+	<tabTrigger>classmethod</tabTrigger>
+	<scope>source.python</scope>
+	<description>@classmethod</description>
+
+	<content><![CDATA[${TM_CURRENT_WORD/^(?:.*?)(?:(\@)|)(?:[^\@]*)$/(?1():@)classmethod/}]]></content>
+</snippet>

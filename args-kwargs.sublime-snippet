@@ -1,7 +1,9 @@
 <snippet>
-    <tabTrigger>arg</tabTrigger>
-    <scope>source.python</scope>
-    <description>*args, **kwargs</description>
+	<tabTrigger>args</tabTrigger>
+	<scope>source.python</scope>
+	<description>*args, **kwargs</description>
 
-    <content><![CDATA[${TM_CURRENT_WORD/^(?:.*?)(?:(\*)|)(?:[^\*]*)$/(?1a:*a)rgs, **kwargs/}]]></content>
+	<content>
+<![CDATA[${TM_CURRENT_WORD/^(?:.*?)(?:(\*)|)(?:[^\*]*)$/(?1():*)args/}${2:${1:: t.Any}}, **kwargs${3:${1:: t.Any}}]]>
+    </content>
 </snippet>

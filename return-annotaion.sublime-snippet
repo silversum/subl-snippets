@@ -1,0 +1,7 @@
+<snippet>
+	<tabTrigger>rann</tabTrigger>
+	<scope>source.python</scope>
+	<description> -> None</description>
+
+	<content><![CDATA[${TM_CURRENT_WORD/^(?:.*?)(?:(\s)|)(?:[^\s]*)$/(?1(): )/}-> ${0:None}]]></content>
+</snippet>

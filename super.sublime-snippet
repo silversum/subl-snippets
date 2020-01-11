@@ -1,0 +1,7 @@
+<snippet>
+	<tabTrigger>super</tabTrigger>
+	<scope>source.python</scope>
+	<description>super().</description>
+
+	<content><![CDATA[super().]]></content>
+</snippet>

@@ -1,8 +1,9 @@
 <snippet>
-    <tabTrigger>class</tabTrigger>
-    <scope>source.python</scope>
-    <description>New Class (short)</description>
+	<tabTrigger>class</tabTrigger>
+	<scope>source.python</scope>
+	<description>New Class (short)</description>
 
-    <content><![CDATA[class ${1:NewClass}(${2}):
-    pass]]></content>
+	<content>
+<![CDATA[class ${1:${TM_SELECTED_TEXT/(^.+$)|/(?1(\1):NewClass)/}}(${2}):
+	${3:pass}$0]]></content>
 </snippet>

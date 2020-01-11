@@ -1,0 +1,7 @@
+<snippet>
+	<tabTrigger>staticmethod</tabTrigger>
+	<scope>source.python</scope>
+	<description>@staticmethod</description>
+
+	<content><![CDATA[${TM_CURRENT_WORD/^(?:.*?)(?:(\@)|)(?:[^\@]*)$/(?1():@)staticmethod/}]]></content>
+</snippet>

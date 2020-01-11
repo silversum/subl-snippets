@@ -1,7 +1,7 @@
 <snippet>
-    <tabTrigger>pprint</tabTrigger>
-    <scope>source.python</scope>
-    <description>Pretty print</description>
+	<tabTrigger>pprint</tabTrigger>
+	<scope>source.python</scope>
+	<description>Pretty print</description>
 
-    <content><![CDATA[import pprint; pprint.pprint(${0:$TM_SELECTED_TEXT})]]></content>
+	<content><![CDATA[import pprint; pprint.pprint(${0:$TM_SELECTED_TEXT})]]></content>
 </snippet>

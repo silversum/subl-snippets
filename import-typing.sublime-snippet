@@ -1,0 +1,7 @@
+<snippet>
+	<tabTrigger>ityping</tabTrigger>
+	<scope>source.python</scope>
+	<description>import typing as t</description>
+
+	<content><![CDATA[import typing as t]]></content>
+</snippet>

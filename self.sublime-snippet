@@ -1,7 +1,7 @@
 <snippet>
-    <tabTrigger>.</tabTrigger>
-    <scope>source.python</scope>
-    <description>self</description>
+	<tabTrigger>.</tabTrigger>
+	<scope>source.python</scope>
+	<description>self.</description>
 
-    <content><![CDATA[self.]]></content>
+	<content><![CDATA[self.]]></content>
 </snippet>

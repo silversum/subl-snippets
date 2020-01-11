@@ -1,12 +1,12 @@
 <snippet>
-    <tabTrigger>ilog</tabTrigger>
-    <scope>source.python</scope>
-    <description>Import logging</description>
+	<tabTrigger>ilog</tabTrigger>
+	<scope>source.python</scope>
+	<description>Import logging</description>
 
-    <content><![CDATA[import logging
+	<content><![CDATA[import logging
 
 
-_log = logging.getLogger(${1:__name__})
+${1:log} = logging.getLogger(${2:__name__})
 
 ]]></content>
 </snippet>
