@@ -6,7 +6,7 @@
 	<content><![CDATA[import logging
 
 
-${1:log} = logging.getLogger(${2:__name__})
+${1:log}: logging.Logger = logging.getLogger(${2:__name__})
 
 ]]></content>
 </snippet>
