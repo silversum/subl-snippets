@@ -1,5 +1,5 @@
 <snippet>
-	<tabTrigger>args</tabTrigger>
+	<tabTrigger>aargs</tabTrigger>
 	<scope>source.python</scope>
 	<description>*args, **kwargs</description>
 

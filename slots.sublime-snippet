@@ -4,6 +4,6 @@
 	<description>__slots__</description>
 
 	<content>
-<![CDATA[__slots__$1 = (${2:${TM_SELECTED_TEXT/(.+)|/?1('\1', ):/}})${3:  # type: ignore}]]>
+<![CDATA[__slots__$1 = (${2:${TM_SELECTED_TEXT/(.+)|/?1('\1', ):/}})]]>
     </content>
 </snippet>

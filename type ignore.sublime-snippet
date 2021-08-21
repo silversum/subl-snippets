@@ -1,9 +1,9 @@
 <snippet>
-	<tabTrigger>ign</tabTrigger>
+	<tabTrigger>tign</tabTrigger>
 	<scope>source.python</scope>
 	<description># type: ignore</description>
 
 	<content>
-<![CDATA[${TM_CURRENT_WORD/(?:.*?)( )?( )?$/?2():(?1 :  )/}# type: ignore$0]]>
+<![CDATA[${TM_CURRENT_WORD/(?:.*?)( )?( )?\n?$/?2():(?1 :  )/}# type: ignore$0]]>
 	</content>
 </snippet>

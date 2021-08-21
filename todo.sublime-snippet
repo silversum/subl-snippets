@@ -3,5 +3,5 @@
 	<scope>source.python</scope>
 	<description># TODO:</description>
 
-	<content><![CDATA[# TODO: ]]></content>
+	<content><![CDATA[# TODO: ${TM_SELECTED_TEXT}]]></content>
 </snippet>
